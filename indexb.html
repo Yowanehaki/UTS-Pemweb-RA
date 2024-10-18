@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazart Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="" href="/Source/icon.png">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center py-5" itemscope itemtype="http://schema.org/Organization">
+            <h1 class="display-5">Formulir</h1>
+        </header>
+
+        <div class="row">
+            <nav class="col-md-3 bg-light p-3 rounded shadow-sm" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <h4 class="mb-4">Menu</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li class="nav-item"><a href="indexb.html" class="nav-link active">Formulir</a></li>
+                    <li class="nav-item"><a href="indexc.html" class="nav-link">Tabel</a></li>
+                </ul>
+            </nav>
+
+            <main class="col-md-9" itemscope itemtype="http://schema.org/Person">
+                <h2 class="mb-4">Isi Formulir Data Anda</h2>
+                <form action="/submit" method="GET">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="date" name="date">
+                    </div>
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Jenis Kelamin</label>
+                        <div>
+                        <input type="radio" id="male" name="gender" value="male" title="Pilih jenis kelamin Laki-Laki" required/>
+                        <label for="male">Laki-Laki</label>
+                        <br>
+                        <input type="radio" id="female" name="gender" value="female" title="Pilih jenis kelamin Perempuan" required/>
+                        <label for="female">Perempuan</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="hobby" class="form-label">Hobi</label>
+                        <input type="text" class="form-control" id="hobby" name="hobby">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Alamat</label>
+                        <textarea class="form-control" id="comments" name="comments" rows="4" placeholder="Masukkan Alamat Anda di sini" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </main>
+        </div>
+        <br>
+        <footer class="footer" itemscope itemtype="http://schema.org/Organization">
+            <p>&copy; 2024 Hazart Website.</p>
+            <p>Contact me on
+                <a href="https://instagram.com/hazwiaf" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                </a>
+                <a href="https://wa.me/+6282163943831" target="_blank" rel="noopener noreferrer">
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                </a>   
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
