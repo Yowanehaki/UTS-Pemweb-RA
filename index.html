@@ -9,14 +9,13 @@
     <link rel="icon" type="" href="Source/icon.png">
 </head>
 <body>
-    <div class="container" itemscope itemtype="http://schema.org/Person">
+    <div class="container">
         <header class="text-center py-5">
             <h1 class="display-4">Hazart Website</h1>
             <img class="logo" src="Source/logo.png" alt="Logo" class="logo">
-            <p class="lead"> Perkenalkan, nama saya Mulfi Hazwi Artaf dengan NIM 122140186. Website ini saya buat untuk memenuhi salah satu syarat Mata Kuliah Pemrograman
-                web dan menyelesaikan UTS. Dalam proses pembuatan nya, saya memberi styling dengan ciri khas saya mwhehe. 
-                Harapan saya, website ini mampu untuk mendapatkan nilai tinggi pada UTS kali ini. 
-                Terima kasih telah meluangkan waktu untuk mengunjungi dan menjelajahi halaman-halaman di website ini!</p>
+            <p class="lead"> Perkenalkan, nama saya <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Mulfi Hazwi Artaf</span></span> dengan NIM 122140186. 
+                Website ini saya buat untuk memenuhi salah satu syarat Mata Kuliah Pemrograman web dan menyelesaikan UTS. Dalam proses pembuatan nya, saya memberi styling dengan ciri khas saya mwhehe. 
+                Harapan saya, website ini mampu untuk mendapatkan nilai tinggi pada UTS kali ini. Terima kasih telah meluangkan waktu untuk mengunjungi dan menjelajahi halaman-halaman di website ini!</p>
         </header>
 
         <div class="row mb-4">
@@ -35,23 +34,23 @@
                 </ul>
             </nav>
 
-            <main class="col-md-9" itemscope itemtype="http://schema.org/Person">
+            <main class="col-md-9" itemscope itemtype="http://schema.org/MusicGroup">
                 <h2 class="mb-4"><span itemprop="name">Green Day</span></h2>
-                <p class="mb-4">Green Day adalah salah satu band punk rock paling berpengaruh di dunia yang dibentuk pada tahun 1987 di California, Amerika Serikat. 
-                    Band ini terdiri dari Billie Joe Armstrong (vokal dan gitar), Mike Dirnt (bass), dan Tré Cool (drum). Green Day dikenal dengan lagu-lagu yang penuh 
-                    semangat dan lirik yang tajam, mencakup tema pemberontakan, kritik sosial, dan isu-isu pribadi. Album mereka yang paling ikonik, "Dookie" (1994), 
-                    membawa mereka ke puncak popularitas dan menjadi salah satu album punk rock terlaris sepanjang masa. Selain itu, album "American Idiot" (2004) 
-                    memperkuat posisi mereka sebagai band yang tidak hanya populer, tetapi juga relevan secara politis. Dengan gaya khas mereka yang menggabungkan 
-                    melodi pop dengan energi punk, Green Day telah menginspirasi generasi baru musisi dan penggemar di seluruh dunia. Berikut 2 album yang terkenal :</p>
+                <p class="mb-4">Green Day adalah salah satu band punk rock paling berpengaruh di dunia yang dibentuk pada tahun <span itemprop="foundingDate">1987</span> di California, Amerika Serikat. 
+                    Band ini terdiri dari <span itemprop="member">Billie Joe Armstrong</span> (vokal dan gitar), <span itemprop="member">Mike Dirnt</span> (bass), dan <span itemprop="member">Tré Cool</span> (drum). 
+                    Green Day dikenal dengan lagu-lagu yang penuh semangat dan lirik yang tajam, mencakup tema pemberontakan, kritik sosial, dan isu-isu pribadi. Album mereka yang paling ikonik,
+                    <span itemprop="album">"Dookie"</span> (1994), membawa mereka ke puncak popularitas dan menjadi salah satu album punk rock terlaris sepanjang masa. Selain itu, 
+                    album <span itemprop="album">"American Idiot"</span> (2004) memperkuat posisi mereka sebagai band yang tidak hanya populer, tetapi juga relevan secara politis. 
+                    Dengan gaya khas mereka yang menggabungkan melodi pop dengan energi punk, Green Day telah menginspirasi generasi baru musisi dan penggemar di seluruh dunia.</p>
 
                 <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <p>American Idiot</p>
+                    <div class="col-md-6 mb-3" itemscope itemtype="http://schema.org/MusicAlbum">
+                        <p itemprop="name">American Idiot</p>
                         <img src="Source/album1.jpg" alt="Album Greenday" class="img-album">
                     </div>
                     <br>
-                    <div class="col-md-6 mb-3">
-                        <p>Dookie</p>
+                    <div class="col-md-6 mb-3" itemscope itemtype="http://schema.org/MusicAlbum">
+                        <p itemprop="name">Dookie</p>
                         <img src="Source/album2.jpg" alt="Album Greenday" class="img-album">
                     </div>
                 </div>
